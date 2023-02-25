@@ -33,6 +33,7 @@ module.exports = {
             }            
         } catch (error) {
             // catchErrorMongoose()
+            // catchErrorMongoose()
             const err = Object.values(error.errors)
             let variable = ''
             for (let a = 0; a < err.length; a++) {
